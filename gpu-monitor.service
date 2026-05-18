@@ -1,0 +1,14 @@
+[Unit]
+Description=GPU Monitoring Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/gpu-monitor
+ExecStart=/usr/bin/python3 /opt/gpu-monitor/app.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
