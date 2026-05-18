@@ -1,7 +1,0 @@
-run:
-  go: 1.18
-
-linters-settings:
-  govet:
-    disable:
-      - composites
