@@ -33,7 +33,7 @@ The service is intended for:
 
 ```text
 gpu-monitor/
-├── app.py
+├── GpuMonitoring.py
 ├── config.txt
 ├── requirements.txt
 ├── gpu-monitor.service
